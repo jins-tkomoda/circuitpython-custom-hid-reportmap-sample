@@ -7,7 +7,7 @@ gamepad = usb_hid.Device(
         + (0xa1, 0x01) # Collection (Application)
         + (0x09, 0x01) # Usage (Pointer)
         + (0xa1, 0x00) # Collection (Physical)
-
+        + (0x85, 0x01) # Report ID
         # 16 buttons, value 0=off, 1=on (2 bytes)
         + (0x05, 0x09) # Usage Page (Button)
         + (0x19, 0x01) # Usage Minimum (Button 1)
