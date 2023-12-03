@@ -12,5 +12,8 @@ This is the code from [here](https://github.com/adafruit/circuitpython/issues/54
 
 ## gamepad: game controller
 
-Almost the same as 
+Almost the same as old (< ver.8) sample code.
 
+## gamepad2: game controller
+
+Split report ids
