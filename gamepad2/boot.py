@@ -1,9 +1,5 @@
 # boot.py
 import usb_hid
-import supervisor
-
-supervisor.set_usb_identification(
-    manufacturer="JINS", product="TestPad", vid=0x303a, pid=0x8208)
 
 gamepad = usb_hid.Device(
     report_descriptor=bytes((
